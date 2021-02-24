@@ -18,14 +18,14 @@ class Hello2DFrame extends JFrame {
                 }
             }
         );
-        this.setTitle("Java2D - Hello World!");
-        this.setSize(350, 350);
+        this.setTitle("Java2D - Image!");
+        this.setSize(500, 500);
     }
 
     public void paint (Graphics g) {
         super.paint(g);
         Graphics2D g2d = (Graphics2D) g;
-        g2d.setPaint(Color.blue);
+        g2d.setPaint(Color.green);
         int w = getWidth();
         int h = getHeight();
         g2d.drawLine(0,0, w,h);
